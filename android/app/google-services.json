@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "304587360672",
+    "firebase_url": "https://gravitoappnotification.firebaseio.com",
+    "project_id": "gravitoappnotification",
+    "storage_bucket": "gravitoappnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304587360672:android:108c1b15c1f7e5a9d87cc5",
+        "android_client_info": {
+          "package_name": "com.gravitoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304587360672-ktddht5cima6rm2q9qj9i2cgi642qcsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh9n-vlm9UfXd3_3QOCMjU59jYvrF0DQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304587360672-ktddht5cima6rm2q9qj9i2cgi642qcsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
