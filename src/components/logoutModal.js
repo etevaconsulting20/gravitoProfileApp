@@ -11,13 +11,13 @@ const LogoutConfirmationModal = ({ onConfirm, onCancel }) => {
     return (
         <>
             <View style={style.mainDiv}>
-                <Text style={{ fontSize: 18,fontFamily: 'Poppins-SemiBold' }}>{I18n.t("logout.confirmheader")}</Text>
+                <Text style={{ fontSize: 18,fontFamily: 'Poppins-SemiBold' }}>{I18n.t("logout-confirmheader")}</Text>
                 <View style={style.messageDiv}>
-    <Text style={{ fontSize: 16, textAlign: "center",fontFamily: appConfig.fontFamily }}>{I18n.t("logout.confirmmessage")}</Text>
+    <Text style={{ fontSize: 16, textAlign: "center",fontFamily: appConfig.fontFamily }}>{I18n.t("logout-confirmmessage")}</Text>
                 </View>
                 <View style={style.buttonDiv}>
-                    <Button onPress={onConfirm} titleStyle={{ color: appConfig.primaryColor,fontFamily: 'Poppins-SemiBold' }} type="clear" title={I18n.t("logout.confirm")}></Button>
-                    <Button onPress={onCancel} titleStyle={{ color: appConfig.primaryColor,fontFamily: 'Poppins-SemiBold' }} type="clear" title={I18n.t("logout.cancel")}></Button>
+                    <Button onPress={onConfirm} titleStyle={{ color: appConfig.primaryColor,fontFamily: 'Poppins-SemiBold' }} type="clear" title={I18n.t("logout-confirm")}></Button>
+                    <Button onPress={onCancel} titleStyle={{ color: appConfig.primaryColor,fontFamily: 'Poppins-SemiBold' }} type="clear" title={I18n.t("logout-cancel")}></Button>
                 </View>
             </View>
         </>
