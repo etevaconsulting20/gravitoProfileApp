@@ -1,5 +1,5 @@
 // @flow
-import firebase from 'react-native-firebase';
+// import firebase from 'react-native-firebase';
 // Optional flow type
 
 export default async (message) => {

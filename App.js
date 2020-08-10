@@ -15,7 +15,7 @@ import {
 
 
 import AsyncStorage from '@react-native-community/async-storage';
-import firebase from "react-native-firebase";
+// import firebase from "react-native-firebase";
 import 'react-native-gesture-handler';
 import RootNavigationContainer from './src/containers/rootContainer';
 import { appConfig } from "./src/settings/settings"
