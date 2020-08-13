@@ -17,6 +17,7 @@ import LogoTitle from "../components/logoTitle"
 import LoadingIndicator from "../components/loadingIndicator"
 import { checkAuthStatus, getSettings, getSegment } from "../actions/index"
 import moment, { locales } from "moment";
+import { Left } from 'native-base';
 
 var fiLocale = require('moment/locale/fi');
 var enLocale = require('moment/locale/en-in')
@@ -26,7 +27,7 @@ const StackNavigator = createStackNavigator();
 
 const mainAppHeaderOptions = {
     headerTitle: props => <LogoTitle {...props} />,
-    headerStyle: { backgroundColor: appConfig.primaryColor },
+    headerStyle: { backgroundColor: appConfig.primaryColor},
     headerTintColor: appConfig.secondaryColor
 }
 const modalScreenOptions = {

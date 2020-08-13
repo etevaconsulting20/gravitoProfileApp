@@ -276,11 +276,7 @@ class ProfileMainScreen extends Component {
                     {domainConsents !== null ?
                         domainConsents.map((domainConsent, i) => (
                             <View key={`domain-consents${i}`} style={styles.AboutUsCard} >
-                                <View
-                                    collapsable={false}
-                                    style={styles.sectionHeader}
-
-                                >
+                                <View collapsable={false} style={styles.sectionHeader}>
                                     <Left style={{ flexDirection: 'row', padding: 10, flex: 2, textAlign: 'left' }}>
                                         <Text style={styles.sectionTitle}>{domainConsent.domain}</Text>
                                     </Left>
@@ -291,7 +287,7 @@ class ProfileMainScreen extends Component {
                                         {domainConsent && domainConsent.consents != null
                                             ?
                                             <View style={{ width: "100%" }}>
-                                                <View style={{ flex: 1, flexDirection: 'row' }} >
+                                                <View style={{ flex: 1, flexDirection: 'row' ,height:'auto'}} >
                                                     <Left>
                                                         <Text style={styles.Title}>{I18n.t('profile-consentHeading')}</Text>
                                                     </Left>
@@ -475,7 +471,6 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         alignSelf: 'flex-start',
-        maxHeight: 30,
         marginTop: 10,
         borderBottomColor: appConfig.primaryColor,
         borderBottomWidth: 1,
@@ -845,10 +840,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fbfbfb'
     },
     SkillsDetails: {
-        flex: 1,
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        // marginBottom:35
+        flex: 1,width:'100%'
     },
     // Companies worked at
     CompaniesHeader: {
